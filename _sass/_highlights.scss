@@ -1,268 +1,136 @@
-.highlight
-  .hll
-    background-color: rgb(255, 255, 204)
+.highlight code, .highlight pre {
+color:#fdce93;
+background-color:#3f3f3f;
+}
 
-  // Comment
-  .c
-    color: rgb(153, 153, 136)
-    font-style: italic
+.highlight .hll {
+background-color:#222;
+}
 
-  // Error
-  .err
-    background-color: rgb(227, 210, 210)
-    color: rgb(166, 23, 23)
+.highlight .err {
+color:#e37170;
+background-color:#3d3535;
+}
 
-  // Keyword
-  .k
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .k {
+color:#f0dfaf;
+}
 
-  // Operator
-  .o
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .p {
+color:#41706f;
+}
 
-  // Comment.Multiline
-  .cm
-    color: rgb(153, 153, 136)
-    font-style: italic
+.highlight .cs {
+color:#cd0000;
+font-weight:700;
+}
 
-  // Comment.Preproc
-  .cp
-    color: rgb(153, 153, 153)
-    font-style: italic
-    font-weight: bold
+.highlight .gd {
+color:#cd0000;
+}
 
-  // Comment.Single
-  .c1
-    color: rgb(153, 153, 136)
-    font-style: italic
+.highlight .ge {
+color:#ccc;
+font-style:italic;
+}
 
-  // Comment.Special
-  .cs
-    color: rgb(153, 153, 153)
-    font-style: italic
-    font-weight: bold
+.highlight .gr {
+color:red;
+}
 
-  // Generic.Deleted
-  .gd
-    background-color: rgb(255, 221, 221)
-    color: rgb(0, 0, 0)
+.highlight .go {
+color:gray;
+}
 
-  // Generic.Emph
-  .ge
-    color: rgb(0, 0, 0)
-    font-style: italic
+.highlight .gs {
+color:#ccc;
+font-weight:700;
+}
 
-  // Generic.Error
-  .gr
-    color: rgb(170, 0, 0)
+.highlight .gu {
+color:purple;
+font-weight:700;
+}
 
-  // Generic.Heading
-  .gh
-    color: rgb(153, 153, 153)
+.highlight .gt {
+color:#0040D0;
+}
 
-  // Generic.Inserted
-  .gi
-    background-color: rgb(221, 255, 221)
-    color: rgb(0, 0, 0)
+.highlight .kc {
+color:#dca3a3;
+}
 
-  // Generic.Output
-  .go
-    color: rgb(136, 136, 136)
+.highlight .kd {
+color:#ffff86;
+}
 
-  // Generic.Prompt
-  .gp
-    color: rgb(85, 85, 85)
+.highlight .kn {
+color:#dfaf8f;
+font-weight:700;
+}
 
-  // Generic.Strong
-  .gs
-    font-weight: bold
+.highlight .kp {
+color:#cdcf99;
+}
 
-  // Generic.Subheading
-  .gu
-    color: rgb(170, 170, 170)
+.highlight .kr {
+color:#cdcd00;
+}
 
-  // Generic.Traceback
-  .gt
-    color: rgb(170, 0, 0)
+.highlight .ni {
+color:#c28182;
+}
 
-  // Keyword.Constant
-  .kc
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .ne {
+color:#c3bf9f;
+font-weight:700;
+}
 
-  // Keyword.Declaration
-  .kd
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .nn {
+color:#8fbede;
+}
 
-  // Keyword.Namespace
-  .kn
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .vi {
+color:#ffffc7;
+}
 
-  // Keyword.Pseudo
-  .kp
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .c,.preview-zenburn .highlight .g,.preview-zenburn .highlight .cm,.preview-zenburn .highlight .cp,.preview-zenburn .highlight .c1 {
+color:#7f9f7f;
+}
 
-  // Keyword.Reserved
-  .kr
-    color: rgb(0, 0, 0)
-    font-weight: bold
+.highlight .l,.preview-zenburn .highlight .x,.preview-zenburn .highlight .no,.preview-zenburn .highlight .nd,.preview-zenburn .highlight .nl,.preview-zenburn .highlight .nx,.preview-zenburn .highlight .py,.preview-zenburn .highlight .w {
+color:#ccc;
+}
 
-  // Keyword.Type
-  .kt
-    color: rgb(68, 85, 136)
-    font-weight: bold
+.highlight .n,.preview-zenburn .highlight .nv,.preview-zenburn .highlight .vg {
+color:#dcdccc;
+}
 
-  // Literal.Number
-  .m
-    color: rgb(0, 153, 153)
+.highlight .o,.preview-zenburn .highlight .ow {
+color:#f0efd0;
+}
 
-  // Literal.String
-  .s
-    color: rgb(208, 16, 64)
+.highlight .gh,.preview-zenburn .highlight .gp {
+color:#dcdccc;
+font-weight:700;
+}
 
-  // Name.Attribute
-  .na
-    color: rgb(0, 128, 128)
+.highlight .gi,.preview-zenburn .highlight .kt {
+color:#00cd00;
+}
 
-  // Name.Builtin
-  .nb
-    color: rgb(0, 134, 179)
+.highlight .ld,.preview-zenburn .highlight .s,.preview-zenburn .highlight .sb,.preview-zenburn .highlight .sc,.preview-zenburn .highlight .sd,.preview-zenburn .highlight .s2,.preview-zenburn .highlight .se,.preview-zenburn .highlight .sh,.preview-zenburn .highlight .si,.preview-zenburn .highlight .sx,.preview-zenburn .highlight .sr,.preview-zenburn .highlight .s1,.preview-zenburn .highlight .ss {
+color:#cc9393;
+}
 
-  // Name.Class
-  .nc
-    color: rgb(68, 85, 136)
-    font-weight: bold
+.highlight .m,.preview-zenburn .highlight .mf,.preview-zenburn .highlight .mh,.preview-zenburn .highlight .mi,.preview-zenburn .highlight .mo,.preview-zenburn .highlight .il {
+color:#8cd0d3;
+}
 
-  // Name.Constant
-  .no
-    color: rgb(0, 128, 128)
+.highlight .na,.preview-zenburn .highlight .nt {
+color:#9ac39f;
+}
 
-  // Name.Decorator
-  .nd
-    color: rgb(60, 93, 93)
-    font-weight: bold
-
-  // Name.Entity
-  .ni
-    color: rgb(128, 0, 127)
-
-  // Name.Exception
-  .ne
-    color: rgb(153, 0, 0)
-    font-weight: bold
-
-  // Name.Function
-  .nf
-    color: rgb(153, 0, 0)
-    font-weight: bold
-
-  // Name.Label
-  .nl
-    color: rgb(153, 0, 0)
-    font-weight: bold
-
-  // Name.Namespace
-  .nn
-    color: rgb(85, 85, 85)
-
-  // Name.Tag
-  .nt
-    color: rgb(0, 0, 128)
-
-  // Name.Variable
-  .nv
-    color: rgb(0, 128, 128)
-
-  // Operator.Word
-  .ow
-    color: rgb(0, 0, 0)
-    font-weight: bold
-
-  // Text.Whitespace
-  .w
-    color: rgb(187, 187, 187)
-
-  // Literal.Number.Float
-  .mf
-    color: rgb(0, 153, 153)
-
-  // Literal.Number.Hex
-  .mh
-    color: rgb(0, 153, 153)
-
-  // Literal.Number.Integer
-  .mi
-    color: rgb(0, 153, 153)
-
-  // Literal.Number.Oct
-  .mo
-    color: rgb(0, 153, 153)
-
-  // Literal.String.Backtick
-  .sb
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Char
-  .sc
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Doc
-  .sd
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Double
-  .s2
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Escape
-  .se
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Heredoc
-  .sh
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Interpol
-  .si
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Other
-  .sx
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Regex
-  .sr
-    color: rgb(0, 153, 38)
-
-  // Literal.String.Single
-  .s1
-    color: rgb(208, 16, 64)
-
-  // Literal.String.Symbol
-  .ss
-    color: rgb(153, 0, 115)
-
-  // Name.Builtin.Pseudo
-  .bp
-    color: rgb(153, 153, 153)
-
-  // Name.Variable.Class
-  .vc
-    color: rgb(0, 128, 128)
-
-  // Name.Variable.Global
-  .vg
-    color: rgb(0, 128, 128)
-
-  // Name.Variable.Instance
-  .vi
-    color: rgb(0, 128, 128)
-
-  // Literal.Number.Integer.Long
-  .il
-    color: rgb(0, 153, 153)
+.highlight .nb,.preview-zenburn .highlight .nc,.preview-zenburn .highlight .nf,.preview-zenburn .highlight .bp,.preview-zenburn .highlight .vc {
+color:#efef8f;
+}
