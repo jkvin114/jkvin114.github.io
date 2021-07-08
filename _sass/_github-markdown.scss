@@ -817,8 +817,7 @@
   word-break: normal;
 }
 
-.markdown-body,
-.highlight pre,
+.markdown-body .highlight pre,
 .markdown-body pre {
   padding: 16px;
   overflow: auto;
