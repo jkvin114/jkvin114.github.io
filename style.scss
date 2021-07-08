@@ -7,10 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import 
-    "github-markdown",
-    "github"
-;
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -291,3 +288,7 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import 
+    "github-markdown",
+    "github"
+;
