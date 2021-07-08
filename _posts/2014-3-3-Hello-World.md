@@ -16,6 +16,8 @@ r|3|6
   
 
 **`hello_world.js`**
+
+  
 ~~~javascript
 function fancyAlert(arg) {
   if(arg) {
@@ -23,6 +25,8 @@ function fancyAlert(arg) {
   }
 }
 ~~~
+
+  
 >javascript
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
