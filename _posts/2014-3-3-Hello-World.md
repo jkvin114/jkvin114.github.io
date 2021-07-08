@@ -7,11 +7,13 @@ title: You're up and running!
 
 _You **can** combine them_
 
+  
 name|value|hi
 ----|----|--
 r|1|4
 r|2|5
 r|3|6
+  
 
 **`hello_world.js`**
 ~~~javascript
