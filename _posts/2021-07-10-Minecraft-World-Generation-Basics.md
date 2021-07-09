@@ -3,11 +3,13 @@ layout: post
 title: World Generation First Steps!
 ---
 
+
+Register biomes and make it as constant
 `package net.minecraft.world.level.biome;`
 
 `Biomes.java`
 
-```
+```java
 public abstract class Biomes {
     public static final Biome PLAINS;
      static {
