@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: World Generation First Steps!
 ---
 
 `package net.minecraft.world.level.biome;`
