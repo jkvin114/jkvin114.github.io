@@ -28,6 +28,14 @@ One chunk generates by these steps:
 6. FEATURES(generates other decorations such as structures,plants,ores, and lakes)
 
 
+>Generates ths shape of the terrain which differs by the biomes
+>fill every block with stones by default
+
+![steps1](/images/wg_steps(6).png)
+![steps2](/images/wg_steps(12).png)
+
+
+
 
 
 
