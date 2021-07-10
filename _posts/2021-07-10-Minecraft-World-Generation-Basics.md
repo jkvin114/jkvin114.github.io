@@ -53,7 +53,7 @@ One chunk generates by these steps:
 ![steps8](/images/wg_steps(3).png)
 
 >Generates blocks such as ores and sand&clay disks
->
+
 ![steps9](/images/wg_steps(8).png)
 ![steps10](/images/wg_steps(2).png)
 
