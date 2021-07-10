@@ -3,6 +3,37 @@ layout: post
 title: World Generation First Steps!
 ---
 
+World generation steps overview
+-------------
+
+`ChunkStatus.java(simplified)`
+```java
+ststic{
+        STRUCTURE_REFERENCES = ( () -> createReferences());
+        BIOMES = (ChunkStatus.STRUCTURE_REFERENCES () -> createBiomes());
+        NOISE = ( ChunkStatus.BIOMES,() -> fillFromNoise());
+        SURFACE = ( ChunkStatus.NOISE,  () -> buildSurfaceAndBedrock());
+        CARVERS = (ChunkStatus.SURFACE, () -> applyCarvers(by air));
+        LIQUID_CARVERS = ( ChunkStatus.CARVERS, () -> applyCarvers(by liquid));
+        FEATURES = register(ChunkStatus.LIQUID_CARVERS, () -> applyBiomeDecoration())
+       }
+```
+
+One chunk generates by these steps:
+1. STRUCTURE_REFERENCES(decides where the structure will generate)
+2. BIOMES(decides biomes for each coordinates)
+3. NOISE(generates the height and shape of the terrain)
+4. SURFACE(generates bedrock and surface blocks)
+5. CARVERS and LIQUID_CARVERS (generates caves and canyons)
+6. FEATURES(generates other decorations such as structures,plants,ores, and lakes)
+
+
+
+
+
+
+
+
 
 Register biomes and make it as constant
 `package net.minecraft.world.level.biome;`
