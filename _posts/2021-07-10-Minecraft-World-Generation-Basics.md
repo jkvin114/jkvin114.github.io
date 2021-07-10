@@ -28,11 +28,45 @@ One chunk generates by these steps:
 6. FEATURES(generates other decorations such as structures,plants,ores, and lakes)
 
 
->Generates ths shape of the terrain which differs by the biomes
->fill every block with stones by default
+>Generates ths shape of the terrain which differs by the biomes.\
+>fill every block with stones by default.
 
 ![steps1](/images/wg_steps(6).png)
 ![steps2](/images/wg_steps(12).png)
+
+>Generates bedrock
+
+![steps3](/images/wg_steps(11).png)
+
+>Fill every air block below y=64 with water and generate surface blocks
+
+![steps4](/images/wg_steps(10).png)
+![steps5](/images/wg_steps(5).png)
+![steps6](/images/wg_steps(4).png)
+
+>Generates caves and canyons
+
+![steps7](/images/wg_steps(9).png)
+
+>Generates structure if the biome can generate that structure
+
+![steps8](/images/wg_steps(3).png)
+
+>Generates blocks such as ores and sand&clay disks
+>
+![steps9](/images/wg_steps(8).png)
+![steps10](/images/wg_steps(2).png)
+
+>Generates plants of the biome
+
+![steps10](/images/wg_steps(7).png)
+![steps10](/images/wg_steps(1).png)
+
+
+
+
+
+
 
 
 
